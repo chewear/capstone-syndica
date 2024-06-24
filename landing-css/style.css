@@ -26,6 +26,9 @@ a{
     color: var(--primary);
 }
 
+.expand-button {
+    display: none;
+}
 
 nav {
     padding: 0 10% 0 10%;
@@ -74,6 +77,10 @@ nav {
 
 .navigation-container a:hover {
     color: var(--accent);
+}
+
+.navigation-container a.login-button:hover {
+    color: var(--secondary); 
 }
 
 
