@@ -23,7 +23,15 @@
         justify-content: space-between;
         padding: 1rem 2rem;
     }
-    
+
+    .desktop-loginButton{
+        display: none;
+    }
+
+    .mobile-loginButton {
+        display: flex;
+    }
+
     .brand-container img {
         width: 5rem;
     }

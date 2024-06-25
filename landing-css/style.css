@@ -26,6 +26,10 @@ a{
     color: var(--primary);
 }
 
+.mobile-loginButton {
+    display: none;
+}
+
 .expand-button {
     display: none;
 }
@@ -84,7 +88,21 @@ nav {
 }
 
 
-.login-button{
+.mobile-loginButton{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    height: 32px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: var(--accent);
+    color: var(--secondary);
+}
+
+.desktop-loginButton{
     display: flex;
     justify-content: center;
     align-items: center;
