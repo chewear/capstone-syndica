@@ -8,6 +8,10 @@ form{
     margin: 1rem 0 1rem 0;
 }
 
+.button-responsive-mobile { 
+    display: none;
+}
+
 input{
     width: 85%;
     padding: 12px;

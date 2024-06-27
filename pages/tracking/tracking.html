@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../../landing-css/footer.css">
     <link rel="stylesheet" href="../../landing-css/marquee.css">
     <link rel="stylesheet" href="css/tracking.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="../../landing-css/footer-responsive.css">
     <link rel="stylesheet" href="../../landing-css/nav-responsive.css">
 </head>
@@ -55,7 +56,10 @@
         <h2>Enter Tracking Number</h2>
         <form action="">
             <input type="text" name="" id="" placeholder="Enter Tracking Number">
-            <button type="submit">TRACK</button>
+            <button type="submit" class="button-responsive-mobile">
+                <svg viewBox="0 0 20.00 20.00" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#000000" fill-rule="evenodd" d="M4 9a5 5 0 1110 0A5 5 0 014 9zm5-7a7 7 0 104.2 12.6.999.999 0 00.093.107l3 3a1 1 0 001.414-1.414l-3-3a.999.999 0 00-.107-.093A7 7 0 009 2z"></path> </g></svg>
+            </button>
+            <button class="button-desktop" type="submit">TRACK</button>
         </form>
     </div>
     <section class="marquee_container">
@@ -91,5 +95,6 @@
         <p>Copyright ©2024 All rights reserved | This prototype is made with by Chewear.</p>
     </footer>
     <script src="../../index.js"></script>
+    <script src="../../nav.js"></script>
 </body>
 </html>
