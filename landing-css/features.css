@@ -24,10 +24,11 @@
     justify-content: space-between;
     width: 100%;
     margin-top: 24px;
+    flex: 1;
+    gap: 2rem;
 }
 
 .features-card {
-    width: 330px;
     height: 360px;
     border-radius: 8px;
     padding: 24px;
