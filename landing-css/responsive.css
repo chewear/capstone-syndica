@@ -36,6 +36,24 @@
 
     /*============================*/
 
+    .button-responsive-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-desktop {
+        display: none;
+    }
+
+    .expand-button svg,
+    .button-responsive-mobile svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    
+    /*============================*/
+
     .about-system-container {
         padding: 2rem;
     }
@@ -71,6 +89,10 @@
 
     .features-card p {
         font-size: 12px;
+    }
+
+    .card-icon svg {
+        width: 3rem;
     }
 
     /*====================================*/

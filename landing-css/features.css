@@ -34,10 +34,25 @@
     padding: 24px;
 }
 
-.features-card img{
-    width: 56px;
-    height: 56px;
+.card-icon{
+    width: 54px;
+    height: 54px;
     border-radius: 100px;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-card:nth-child(1) .card-icon {
+    background-color: var(--secondary);
+}
+.features-card:nth-child(2) .card-icon {
+    background-color: var(--accent);
+}
+.features-card:nth-child(3) .card-icon {
+    background-color: var(--secondary);
 }
 
 .features-card:nth-child(1){
